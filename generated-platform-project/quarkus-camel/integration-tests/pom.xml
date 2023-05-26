@@ -118,7 +118,6 @@
     <module>camel-quarkus-integration-test-main-xml-jaxb</module>
     <module>camel-quarkus-integration-test-main-yaml</module>
     <module>camel-quarkus-integration-test-main</module>
-    <module>camel-quarkus-integration-test-master</module>
     <module>camel-quarkus-integration-test-micrometer</module>
     <module>camel-quarkus-integration-test-microprofile</module>
     <module>camel-quarkus-integration-test-minio</module>
