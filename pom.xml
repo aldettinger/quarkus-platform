@@ -58,7 +58,7 @@
         <quarkus.version>3.8.0</quarkus.version>
         <quarkus-bom.version>${quarkus.version}</quarkus-bom.version>
 
-        <camel-quarkus.version>3.7.0</camel-quarkus.version>
+        <camel-quarkus.version>3.8.0</camel-quarkus.version>
         <camel-quarkus-test-list.version>${camel-quarkus.version}</camel-quarkus-test-list.version>
 
         <!-- If you made changes to the integration tests pom of Amazon Services,
@@ -602,6 +602,7 @@
                                     <dependency>log4j:log4j</dependency>
                                     <!-- AssertJ -->
                                     <dependency>org.assertj:assertj-core</dependency>
+                                    <dependency>org.apache.camel.quarkus:camel-quarkus-beanio</dependency>
                                 </excludedDependencies>
                             </bomGenerator>
                             <descriptorGenerator>
