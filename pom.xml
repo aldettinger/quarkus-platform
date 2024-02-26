@@ -444,6 +444,22 @@
                                             <skip>true</skip>
                                             <artifact>org.apache.camel.quarkus:camel-quarkus-integration-test-smb:${camel-quarkus-test-list.version}</artifact>
                                         </test>
+                                        <test><!-- Google Big Query resolution issue https://github.com/apache/camel-quarkus/issues/5798 -->
+                                            <skip>true</skip>
+                                            <artifact>org.apache.camel.quarkus:camel-quarkus-integration-test-google-bigquery:${camel-quarkus-test-list.version}</artifact>
+                                        </test>
+                                        <test><!-- Google Pub Sub resolution issue https://github.com/apache/camel-quarkus/issues/5799 -->
+                                            <skip>true</skip>
+                                            <artifact>org.apache.camel.quarkus:camel-quarkus-integration-test-google-pubsub:${camel-quarkus-test-list.version}</artifact>
+                                        </test>
+                                        <test><!-- JSch resolution issue https://github.com/apache/camel-quarkus/issues/5800 -->
+                                            <skip>true</skip>
+                                            <artifact>org.apache.camel.quarkus:camel-quarkus-integration-test-jsch:${camel-quarkus-test-list.version}</artifact>
+                                        </test>
+                                        <test><!-- Kubernetes resolution issue https://github.com/apache/camel-quarkus/issues/5801 -->
+                                            <skip>true</skip>
+                                            <artifact>org.apache.camel.quarkus:camel-quarkus-integration-test-kubernetes:${camel-quarkus-test-list.version}</artifact>
+                                        </test>
                                     </tests>
                                 </member>
                                <!-- <member>
