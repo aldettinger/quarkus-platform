@@ -22,9 +22,6 @@
     <module>camel-quarkus-integration-test-minio</module>
     <module>camel-quarkus-integration-test-smb</module>
     <module>camel-quarkus-integration-test-google-bigquery</module>
-    <module>camel-quarkus-integration-test-google-pubsub</module>
-    <module>camel-quarkus-integration-test-jsch</module>
-    <module>camel-quarkus-integration-test-kubernetes</module>
     <module>camel-quarkus-integration-test-activemq</module>
     <module>camel-quarkus-integration-test-amqp</module>
     <module>camel-quarkus-integration-test-arangodb</module>
@@ -64,6 +61,7 @@
     <module>camel-quarkus-integration-test-geocoder</module>
     <module>camel-quarkus-integration-test-git</module>
     <module>camel-quarkus-integration-test-github</module>
+    <module>camel-quarkus-integration-test-google-pubsub</module>
     <module>camel-quarkus-integration-test-google-storage</module>
     <module>camel-quarkus-integration-test-google</module>
     <module>camel-quarkus-integration-test-graphql</module>
@@ -96,6 +94,7 @@
     <module>camel-quarkus-integration-test-jpa</module>
     <module>camel-quarkus-integration-test-jq</module>
     <module>camel-quarkus-integration-test-js-dsl</module>
+    <module>camel-quarkus-integration-test-jsch</module>
     <module>camel-quarkus-integration-test-jsh-dsl</module>
     <module>camel-quarkus-integration-test-jslt</module>
     <module>camel-quarkus-integration-test-json-validator</module>
@@ -115,6 +114,7 @@
     <module>camel-quarkus-integration-test-knative</module>
     <module>camel-quarkus-integration-test-kotlin-dsl</module>
     <module>camel-quarkus-integration-test-kotlin</module>
+    <module>camel-quarkus-integration-test-kubernetes</module>
     <module>camel-quarkus-integration-test-ldap</module>
     <module>camel-quarkus-integration-test-leveldb</module>
     <module>camel-quarkus-integration-test-lra</module>
